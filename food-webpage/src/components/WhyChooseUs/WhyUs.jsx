@@ -10,7 +10,7 @@ export default function WhyUs() {
 
             {/* HEADING SECTION */}
             <div>
-                <h1 className='pb-16 tracking-wider text-2xl font-semibold text-center'>Why Choose Us</h1>
+                <h1 data-aos='fade-up' className='pb-16 tracking-wider text-2xl font-semibold text-center'>Why Choose Us</h1>
             </div>
 
             {/* CARD SECTION */}
@@ -18,25 +18,25 @@ export default function WhyUs() {
                 <div className='grid grid-cols-2 md:grid-cols-4 gap-14 sm:gap-4'>
                     
                     {/* CARDS LIST */}
-                    <div className='text-center flex justify-center items-center flex-col gap-1 px-2'>
+                    <div data-aos='fade-down' className='text-center flex justify-center items-center flex-col gap-1 px-2'>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <p className='text-5xl text-secondary rotate-90 text-center translate-x-4'>....</p>
                         <FaBusAlt className='text-4xl text-secondary'/>
                     </div>
 
-                    <div className='text-center flex justify-center items-center flex-col gap-1 px-2'>
+                    <div data-aos='fade-up' className='text-center flex justify-center items-center flex-col gap-1 px-2'>
                         <FaBusAlt className='text-4xl text-primary'/>
                         <p className='text-5xl text-primary rotate-90 text-center translate-x-4'>....</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     </div>
 
-                    <div className='text-center flex justify-center items-center flex-col gap-1 px-2'>
+                    <div data-aos='fade-down' className='text-center flex justify-center items-center flex-col gap-1 px-2'>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <p className='text-5xl text-secondary rotate-90 text-center translate-x-4'>....</p>
                         <FaBusAlt className='text-4xl text-secondary'/>
                     </div>
 
-                    <div className='text-center flex justify-center items-center flex-col gap-1 px-2'>
+                    <div data-aos='fade-up' className='text-center flex justify-center items-center flex-col gap-1 px-2'>
                         <FaBusAlt className='text-4xl text-primary'/>
                         <p className='text-5xl text-primary rotate-90 text-center translate-x-4'>....</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
